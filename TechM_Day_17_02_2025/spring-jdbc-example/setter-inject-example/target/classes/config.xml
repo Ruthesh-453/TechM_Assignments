@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+<bean id="empbean" class="com.setter.examples.Employee">
+
+<property name="id">
+<value>80</value>
+</property>
+
+<property name="name">
+<value>Ruthesh</value>
+</property>
+
+<property name="city">
+<value>Hyderabad</value>
+</property>
+
+</bean>
+</beans>

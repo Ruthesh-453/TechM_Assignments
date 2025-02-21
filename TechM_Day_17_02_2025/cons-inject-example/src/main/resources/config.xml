@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+<bean id="empBean" class="com.example.Employee">
+<constructor-arg value="102"  type="int"></constructor-arg>
+<constructor-arg value="Ruthesh"></constructor-arg>
+</bean>
+
+</beans>
